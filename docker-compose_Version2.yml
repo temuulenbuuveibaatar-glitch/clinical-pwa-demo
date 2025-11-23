@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  couchdb:
+    image: couchdb:3.4
+    container_name: couchdb
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=admin
+    ports:
+      - '5984:5984'
+    volumes:
+      - couchdata:/opt/couchdb/data
+  api:
+    build: ./server
+    container_name: clinical-api
+    environment:
+      - PORT=3000
+      - JWT_SECRET=demo-secret-change-me
+    ports:
+      - '3000:3000'
+    depends_on:
+      - couchdb
+volumes:
+  couchdata:

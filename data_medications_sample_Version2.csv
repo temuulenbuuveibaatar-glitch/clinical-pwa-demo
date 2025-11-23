@@ -1,0 +1,4 @@
+name,formulation,dose,renal_adjustment
+Paracetamol,tablet,500mg,No adjustment for mild renal impairment
+Amoxicillin,capsule,500mg,Reduce dose in severe renal impairment
+Furosemide,tablet,40mg,Monitor electrolytes; dose adjust as per eGFR
