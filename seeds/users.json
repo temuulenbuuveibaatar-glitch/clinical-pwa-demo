@@ -1,0 +1,6 @@
+[
+  {"id":"u-super","email":"superadmin@example.local","role":"superadmin","passwordHash":"$2b$10$CwTycUXWue0Thq9StjUM0uJ8QF.9wQvQx2G7fE6FqIh4eZyW8a1q"},
+  {"id":"u-director","email":"director@demo.hospital","role":"hospital_director","passwordHash":"$2b$10$CwTycUXWue0Thq9StjUM0uJ8QF.9wQvQx2G7fE6FqIh4eZyW8a1q"},
+  {"id":"u-dr","email":"dr.tumur@demo.hospital","role":"clinician","passwordHash":"$2b$10$CwTycUXWue0Thq9StjUM0uJ8QF.9wQvQx2G7fE6FqIh4eZyW8a1q"},
+  {"id":"u-nurse","email":"nurse.altan@demo.hospital","role":"nurse","passwordHash":"$2b$10$CwTycUXWue0Thq9StjUM0uJ8QF.9wQvQx2G7fE6FqIh4eZyW8a1q"}
+]
